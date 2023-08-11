@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stle.css">
+	<title></title>
+</head>
+<body>
+
+	<p id="jokes"></p>
+	<img id="pics" src="">
+	<button onclick="moreJokes()">refresh</button>
+
+
+
+
+
+
+	<script>
+		function moreJokes() {
+			let jokePlace = document.getElementById('jokes');
+		
+			fetch("https://api.chucknorris.io/jokes/random")
+			.then(res => res.json())
+			.then(data => {
+				console.log(data)
+			// document.getElementById('jokes').innerHTML = data.value;
+			document.getElementById('pics')
+			jokePlace.innerHTML = data.value
+
+			})
+		}
+
+		
+
+		
+	</script>
+</body>
+</html>
