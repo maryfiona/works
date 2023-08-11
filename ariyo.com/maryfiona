@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>	
+<head>
+<title>fiona</title>
+</head>
+<style>
+	<body>
+
+
+	.top{
+		background-color: grey;
+	}
+	.
+</style>
+
+<section class="top">
+	
+	<a class="victor" href="">HOME</a>
+	<a class="victor" href="">ABOUT</a>
+	<a class="victor" href="">GALLERY</a>
+	<a class="victor" href="">CONTACT</a>
+	<a class="victor" href="">LOGIN</a>
+	<a class="victor" href="">REGISTER</a>
+</section>
+</body>
+</html>
