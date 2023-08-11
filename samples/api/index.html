@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<img id="pics" src=""> <br>
+	 <button onclick="lookfor()">check</button>
+	<p>image tiltle</p>
+
+
+<input type="" name="">
+
+<ul></ul>
+
+<script>
+	function lookfor(){
+			
+	fetch("https://jsonplaceholder.typicode.com/users")
+	.then(res => res.json())
+	.then(data => document.getElementById('pics').src = data.message )
+
+
+}
+		
+</script>
+
+
+  <script>
+		fetch("https://jsonplaceholder.typicode.com/users")
+		.then(res => res.json())
+		.then(data => {
+			data.map(user => {
+				const markup = `<h3>${user.id}</h3>
+				<h3>${user.name}</h3>
+				<h3>${user.phone}</h3>
+				<h3>${user.email}</h3>`;
+
+				document.querySelector('ul').insertAdjacentHTML('beforeend', markup)
+			})
+		})
+	</script>
+</body>
+</html>
