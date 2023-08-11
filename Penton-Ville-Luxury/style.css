@@ -1,0 +1,113 @@
+body{
+    overflow-x: hidden;
+
+}
+
+
+
+.phone{
+    position: relative;
+    top: 2em;
+    left: 3em;
+   color: navy;
+
+}
+.message{
+    position: relative;
+    bottom: 8.5em;
+    left: 17em;
+}
+.envelope{
+    position: relative;
+    left: 7em;
+    font-size: 2em;
+    bottom: 3em;
+   color: navy;
+
+}
+.lite{
+    list-style: none;
+}
+
+.light{
+    position: relative;
+    left: 2em;
+    bottom: 1.5em;
+    color: orangered;
+    list-style: none;
+}
+.folow{
+    position: relative;
+    left: 32em;
+    bottom: 15em;
+}
+    
+.drop{
+    position: relative;
+    left: 5em;
+
+}
+.side-line {
+    border-left: 2px solid #333; /* You can change the color and width as desired */
+    height: 40px; /* Adjust the height of the line based on your design */
+    margin: 10px 0; /* Add some space around the line */
+    position: relative;
+    left: 8em;
+    bottom: 3.5em;
+  }
+  .em{
+    text-decoration: none;
+  }
+  .line{
+    border-left: 2px solid #333; /* You can change the color and width as desired */
+    height: 40px; /* Adjust the height of the line based on your design */
+    margin: 10px 0; /* Add some space around the line */
+    position: relative;
+    left: 31em;
+    bottom: 12em;
+  
+  }
+  
+nav {
+   background: linear-gradient(-45deg,#095b94 65% ,#2e2e30   35%);
+   box-sizing: border-box;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: 16em;
+    
+    
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav li a {
+    color: black; /* Set the default text color */
+    text-decoration: none;
+    display: block; /* Display the link as a block element to fill the entire li */
+    padding: 10px 20px; /* Add padding to create a clickable area */
+  }
+  
+  /* Style the background color when the link is hovered */
+  nav li a:hover {
+    background-color: white; /* Set the background color to white on hover */
+  }
+  
+  /* Style the background color when the link is active (clicked) */
+  nav li.active {
+    background-color: white; /* Set the background color to white when clicked */
+    color: black; /* Set the text color to black when clicked */
+  }
+  
