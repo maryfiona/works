@@ -1,0 +1,64 @@
+
+body{
+	overflow-x: hidden;
+	
+}
+a{
+	position: relative;
+	left: 29em;
+}
+.feed{
+	background-color: royalblue;
+	border: none;
+	outline: none;
+
+}
+.ti{
+	color: blue;
+	margin-right: 3em;
+}
+	.hm{
+		color: yellow;
+
+	}
+.hee{
+color: blue;
+}
+.we{
+	position: relative;
+	top: 5em;
+
+}
+.can{
+	position: relative;
+	top: 2em;
+
+}
+.joy{
+	width: 30em;
+	position: relative;
+	top: 3em;
+	
+	
+}
+.fiona{
+	position: relative;
+	top: 2em;
+	background-color: blue;
+	width: 8em;
+	height: 3em;
+	border:none;
+	outline: none;
+	border-radius: 10em;
+}
+.ariyo{
+	position: relative;
+	top: 2em;
+	height: 3em;
+	
+	border-color: blue;
+	outline: none;
+	width: 8em;
+	border-radius: 10em;
+	background-color: white;
+}

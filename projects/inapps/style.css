@@ -1,0 +1,33 @@
+body{
+	overflow: hidden;
+	 background-image: url(home.avif);
+	 background-size: cover;
+}
+.he{
+
+
+	position: relative;
+	bottom:1.6em;
+	 left:2.5em;
+}
+.she{
+	position: relative;
+	bottom: 4.8em;
+	left: 3.5em;
+}
+.fio{
+	padding-bottom: 2em;
+}
+.fii{
+	padding-top:3em;
+}
+.fiona{
+	color: red;
+}
+.they{
+	position: relative;
+	bottom: 15em;
+	 left:40em;
+	border-radius: 5em;
+	 width: 100%;
+}

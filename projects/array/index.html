@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<form>
+	<p><input type="text" name="name" id="name"></p>
+	<p><input type="password" name="pass" id="pass"></p>
+</form>
+register
+<button onclick="gotoLogin()">login</button>
+
+
+<script>
+	function gotoLogin() {
+
+		let uname = document.getElementById('name').value;
+		let upass = document.getElementById('pass').value;
+
+		if (uname === 'fiona' && upass === 'fiona12') {
+			location.assign("login.html")
+		}
+
+	}
+
+	console.log(Math.floor())
+</script>
+
+</body>
+</html>

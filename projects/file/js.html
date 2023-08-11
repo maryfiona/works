@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+	<input type="text" name="" placeholder="username " id="usName">
+	<input style="" type="password" name="" placeholder="password" id="usPass" required>
+	<button onclick="doSubmit()">login</button> <br>
+	<span id="error"></span>
+
+
+<script type="text/javascript">
+
+
+	function doSubmit() {
+		let usNames = document.getElementById('usName').value;
+		let usPas = document.getElementById('usPass').value;
+	const userDetails = ["fiona", "fiona123"];
+
+	if (usNames === userDetails[0] && usPas !=userDetails[1]) {
+		document.getElementById('error').innerHTML = 'password incorrect'
+		document.getElementById('error').style.color = 'red'
+	}
+if (usPas === userDetails[1] && usNames !=userDetails[0]) {
+		document.getElementById('error').innerHTML = 'user incorrect'
+		document.getElementById('error').style.color = 'red'
+	}
+	if (usNames != userDetails[0] && usPas != userDetails[1]) {
+		document.getElementById('error').innerHTML = 'invalid username and password'
+		document.getElementById('error').style.color = 'red'
+	
+
+	}
+	
+	
+}
+
+
+
+
+
+</script>
+</body>
+</html>

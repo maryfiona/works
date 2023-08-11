@@ -1,0 +1,203 @@
+body{
+	overflow-x: hidden;
+}
+ Navbar{
+
+
+
+position: relative;
+width: 1512px;
+height: 90px;
+left: 3em;
+top: 20px;
+
+background: #FFFFFF;
+}
+
+	 bytelight {
+
+
+width: 94.63px;
+height: 21.46px;
+
+background: #02043F;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.fi{
+	position: relative;
+	left: 37em;
+	bottom: 0.5em;
+ }
+
+ .fiona{
+ 	position: relative;
+ 	padding: 6em;
+ 	
+ }
+ .dee{
+ 	position: relative;
+ 	right: 3.2em;
+ }
+ .de{
+ 	position: relative;
+ 	right: 8em;
+ }
+ .fii{
+ 	position: relative;
+ 	left: 44em;
+ 	background-color: black;
+ 	border-radius: 3em;
+ 	bottom: 0.5em;
+ 	color: white;
+ }
+.ariyo{
+	color: white;
+	background-color: black;
+	width: 8em;
+	height: 3em;
+	border-radius: 3em;
+	 position: relative;
+	 right: 8em;
+	}
+	.hi{
+		background-color: white;
+		 border-radius: 2em;
+		 position: relative;
+		 right: 5em;
+		 width: 10em;
+		 height: 3em;
+	}
+	.hii{
+		 padding: 4em;
+	}
+	.le{
+		width:100%;
+		border-radius: 3em;
+	}
+	.lee{
+		top: 4em;
+		position: relative;
+		text-align: center;
+	}
+	.S{
+		bottom: 0.5em;
+		 position: relative;
+	}
+	.f{
+		position: relative;
+		right: 1.5em;
+		 top: 0.3em;
+	}
+	.a{
+		 color: blue;
+	}
+	.ww{
+		box-sizing: border-box;
+		height: 450px;
+background: #FFFFFF;
+border: 3px solid #E6E6E6;
+border-radius: 30px;
+	}
+	.fiii{
+		position: relative;
+		left: 2em;
+		padding: 1em;
+	}
+	.money{
+		position: relative;
+		left: 1.5em;
+		top: 3em;
+	}
+	.deey{
+		position: relative;
+		top: 6em;
+	}
+
+	
+	.we{
+box-sizing: border-box; 
+height: 450px;
+background: #FFFFFF;
+border: 3px solid #E6E6E6;
+border-radius: 30px;"
+	}
+	.coke{
+		width: 80%;
+	}
+	.seee{
+		color: white;
+		 width:2em;
+		  position: relative;
+		  left: 50em;
+		  bottom: 2em;
+	}
+	.deeee{
+		position: relative;
+		bottom: 2em;
+		left: 50em;
+	}
+	.weeeee{
+		position: relative;
+		left: 50em;
+		 bottom: 2em;
+	}
+	.sa{
+		position: relative;
+		top: 35em; 
+		background: #000000 ;
+		color:white;
+	}
+	.saa{
+		position: relative;
+		top: 5em;
+	}
+	.saaa{
+		position: relative;
+		top: 8.5em;
+		right: 20em;
+	}
+	.cab{
+		position: relative;
+		top: 7em;
+		 left: 2em;
+	}
+	.star{
+		 color: white;
+		  background-color: black;
+		   position: relative;
+		   top: 4em; 
+		   left: 27em;
+		 border-radius: 3em;
+	}
+	.hu{
+		width:19em; 
+		border-radius:6em;
+		 border-color:blue;
+		 outline: none;
+		 position: relative;
+		top: 4em;
+	}
+	.aw{
+		color:blue;
+	}
+	.ei{
+		position: relative;
+		 top: 25em;
+	}
+	.ua{
+		background-color: black;
+		color: white;
+		border-radius: 3em;
+		width: 20%;
+		height: 3em;
+		 top: 7em;
+		position: relative;
+	}
+	.ie{
+		color: orange;
+	}

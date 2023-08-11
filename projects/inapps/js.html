@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form>
+	<input type="text" name="" placeholder="username " id="usName">
+	<input type="password" name="" placeholder="password" id="usPass">
+	<button onclick="doSubmit()">login</button>
+</form>
+
+<script type="text/javascript">
+
+
+	function doSubmit() {
+		let usNames = document.getElementById('usName').value;
+		let usPas = document.getElementById('usPass').value;
+	const userDetails = ["fiona", "fiona123"];
+
+	if (usNames === userDetails[0] && usPas === userDetails[1]) {
+		alert("successfully")
+	}
+
+	else{
+		alert("incorrect details")
+	}	
+	
+	}
+
+
+
+
+
+</script>
+</body>
+</html>

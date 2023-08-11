@@ -1,0 +1,58 @@
+body{
+	overflow: hidden;
+}
+.secondsect{
+			/*display: inline-flex;*/
+			position: relative;
+			margin-left: 275px;
+			background-image: url(./backa.jpg);
+			background-color: hotpink;
+			width: 78%;
+			height: 20em;
+			background-size: cover;
+		}
+
+		.pics{
+			border-radius: 50%;
+		}
+		.victor{
+			background-color: grey;
+			width: 14%;
+			padding: 3em;
+			height: 33em;
+			position: absolute;
+			
+		}
+		p > a{
+			color: white;
+		}
+		.kelvin{
+			margin-left: 700px;
+			margin-top: 30px;
+		}
+		.mary{
+			color: white;
+		}
+		.dey{
+			color: red;
+			 background-color: white;
+			  margin-top: 10em; 
+			  margin-left: 40%;
+		}
+		
+		.diva{
+			width: 30%;
+			height: 12em;
+			background-image:url(./backa.jpg);
+			background-attachment: fixed;
+			margin-left: 2em;
+			margin-top: 10em;
+		}
+		
+		.as{
+			  width: 17em;
+			   margin-left: 30em;
+			    margin-bottom: 20em;
+			    position: relative;
+    bottom: 13em;
+		}

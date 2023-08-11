@@ -1,0 +1,35 @@
+body{
+	overflow: hidden;
+}
+.fiona{
+	
+	border-radius: 20em;
+	 width:20%;
+	  position: relative;
+	left: 2em;
+}
+.fii{
+	 position: relative;
+	 right: 9em;
+}
+.uncle{
+	border: none;
+	background-color: black;
+	 color: white; 
+	 position: relative;
+	left: 25em;
+}
+.sis{
+	padding: 5em;
+	 padding-right: 9em; 
+}
+.peace{
+	padding: 3em;
+	
+	  position: relative;
+	right: 3em;
+}
+.joy{
+	color:black;
+	 border: none;
+}

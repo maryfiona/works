@@ -1,0 +1,25 @@
+.he{
+	font-size: 40px;
+}
+.she{
+	font-size: 30px;
+}
+.they{
+			
+			background-color: red;
+			 color:white;
+			 border-radius: 50px;
+			 width: 100px;
+			border:none;
+
+}
+.top{
+			background-color: cyan;
+			height: 300px;
+			box-shadow: 10px 10px  red;
+
+		}
+	.nora{
+		background-color: white;
+		margin-top: 90px
+	}
